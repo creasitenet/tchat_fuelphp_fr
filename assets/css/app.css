@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+a{
+	color: #67b0d1;
+ 	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+a:hover{
+	color: #4db3d5;
+	text-decoration: none;
+}
+
+.br {
+	border: 2px solid red;
+}
+
+#tchatmessages {
+	width: 100%;
+    height: 510px;
+	position: relative;
+	padding: 5px;
+	border: 2px solid #777;
+    overflow: hidden;
+}
+#tchat_messages { 
+    max-height: 500px;
+    vertical-align: bottom;
+    overflow:   auto;
+}
+.message {
+    display: block;
+	border: 1px solid #ccc;
+	background:#fefefe;
+	padding:5px;
+	margin: 5px;
+}
+.gravatar {
+	float: left;
+	margin-right: 5px;
+	width:50px;
+}
+.username {
+	font-size: 14px;
+	font-weight: bold;
+}
+.date {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.textem {
+	font-size: 14px;
+	float: left;	
+}
+
+#newmessage {
+	position: relative;
+	margin-top: 20px;
+	color: #777;
+	padding: 0 15px;
+	z-index: 1;	
+	text-align: left;
+}
+.couleur { 
+	color: #006699;
+}
+
+::-webkit-input-placeholder { color:#8D8D8D!important; }
+::-moz-placeholder { color:#8D8D8D!important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#8D8D8D!important; } /* ie */
+input:-moz-placeholder { color:#8D8D8D!important; }
+
+.form {
+  width: 100%;
+  display: block;
+  background: #fff;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 1%;
+}
+.form-control {
+  border-radius:0;
+  border: 2px solid #777;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form-control:focus, 
+.form-control:hover {
+  box-shadow: inherit;
+  border-color: #777;
+}
+  
+.form fieldset {
+margin: 0;
+border: 0px none transparent;  
+}
+
+.ui-datepicker-title select {
+	color:#444;
+}
+
+label > span {
+	color: #999;
+	font-size: 12px;
+}
+.input-group-addon {
+	min-width: 50px;
+	border-radius:0;
+}
+
+.btn {
+	border: 2px solid #777;
+	padding: 5px;
+}
+.btn-primary {
+	color: #fff;
+	background: #777;
+	background-color: #777!important;
+	border-color: #777!important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+	color: #fff;
+	background: #666;
+	background-color: #666!important;
+	border-color: #666!important;
+}
+.help-block {
+	font-size: 11px;
+}
+
+#tchatusers {
+	width: 100%;
+    height: 510px;
+	position: relative;
+	padding: 5px;
+	border: 2px solid #777;
+    overflow: hidden;
+}
+#tchat_users { 
+    max-height: 500px;
+    vertical-align: bottom;
+    overflow:   auto;
+}
+#tchat_users .form { 
+}
+#tchat_users ul, #tchat_users li {
+	list-style: none;
+}
+#tchat_users ul {
+    padding: 0;
+    text-align: left;
+	list-style: none;
+}
+#tchat_users ul li {
+	text-decoration: none;
+    text-align: left;
+	text-decoration: none;
+}
+#tchat_users .username {
+	text-decoration: none;
+    font-size: 14px;
+	font-weight: bold;
+    text-align: left;
+	text-decoration: none;
+}
